@@ -1,0 +1,19 @@
+{
+    "name": "filippo-toso/recommendation",
+    "description": "Simple recommendation library for small projects",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Filippo Toso",
+            "email": "filippo.toso@creativepark.it"
+        }
+    ],
+    "require": {
+        "php": "^5.6 || ^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "FilippoToso\\Recommendation\\": "src"
+        }
+    }
+}
