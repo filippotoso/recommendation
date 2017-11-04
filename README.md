@@ -48,9 +48,6 @@ printf("Philip liking for the Diavola pizza: %f\r\n", $result);
 print("Philip recommendations: ");
 $result = $engine->recommendations('Philip');
 
-// Sort the result by liking
-arsort($result);
-
 // Display recommendations
 print_r($result);
 
@@ -87,9 +84,6 @@ printf("Philip liking for the Diavola pizza: %f\r\n", $result);
 // Get all the recommended pizzas for Philip
 print("Philip recommendations: ");
 $result = $engine->recommendations('Philip');
-
-// Sort the result by liking
-arsort($result);
 
 // Display recommendations
 print_r($result);
